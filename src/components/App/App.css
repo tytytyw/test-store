@@ -1,0 +1,81 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+select {
+  cursor: pointer;
+}
+
+.wrap {
+  padding: 32px 30px;
+}
+
+.container {
+  display: flex;
+}
+
+.main {
+  width: 80%;
+}
+
+.sort-settings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875em;
+}
+
+.sort-settings__btn {
+  font-size: 1em;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #5375B7;
+  line-height: 0.875em;
+  font-weight: normal;
+  padding: 0;
+  margin: 0 0.875rem 0 0.625rem
+}
+
+.sort-settings__btn.active {
+  border-bottom: 1px sandybrown solid;
+  color: black;
+}
+
+.sort-settings__correction {
+  margin-bottom: 20px;
+}
+
+.sort-settings__correction-btn {
+  border: none;
+  background-color: #FFF3D8;
+  padding: 7px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  margin-right: 10px;
+  margin-top: 20px;
+  transition: box-shadow .4s ease;
+}
+
+.sort-settings__correction-btn:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sort-settings__correction-btn.active {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sort-settings__count-text {
+  margin-right: 10px;
+}
+
+.sort-settings__count {
+  padding: 5px;
+  border-color: rgba(0, 0, 0, 0.25);
+}

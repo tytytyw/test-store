@@ -1,0 +1,83 @@
+{
+    "products": [
+        {
+            "name": "Наименование товара, которое не более 2 строк",
+            "pricePromo": "10 000",
+            "priceOld": "20 000",
+            "valute": "$",
+            "picUrl": "./product-pic.png",
+            "id": 1
+        },
+        {
+            "name": "Наименование товара, которое не более 2 строк",
+            "pricePromo": "10 000",
+            "priceOld": "20 000",
+            "valute": "$",
+            "picUrl": "./product-pic.png",
+            "id": 2
+        },
+        {
+            "name": "Наименование товара, которое не более 2 строк",
+            "pricePromo": "10 000",
+            "priceOld": "20 000",
+            "valute": "$",
+            "picUrl": "./product-pic.png",
+            "id": 3
+        },
+        {
+            "name": "Наименование товара, которое не более 2 строк",
+            "pricePromo": "10 000",
+            "priceOld": "20 000",
+            "valute": "$",
+            "picUrl": "./product-pic.png",
+            "id": 4
+        },
+        {
+            "name": "Наименование товара, которое не более 2 строк",
+            "pricePromo": 10000,
+            "priceOld": 20000,
+            "valute": "$",
+            "picUrl": "./product-pic.png"
+        },
+        {
+            "name": "Наименование товара, которое не более 2 строк",
+            "pricePromo": 10000,
+            "priceOld": 20000,
+            "valute": "$",
+            "picUrl": "./product-pic.png",
+            "id": 5
+        },
+        {
+            "name": "Наименование товара, которое не более 2 строк",
+            "pricePromo": 10000,
+            "priceOld": 20000,
+            "valute": "$",
+            "picUrl": "./product-pic.png",
+            "id": 6
+        },
+        {
+            "name": "Наименование товара, которое не более 2 строк",
+            "pricePromo": 10000,
+            "priceOld": 20000,
+            "valute": "$",
+            "picUrl": "./product-pic.png",
+            "id": 7
+        },
+        {
+            "name": "Наименование товара, которое не более 2 строк",
+            "pricePromo": 10000,
+            "priceOld": 20000,
+            "valute": "$",
+            "picUrl": "./product-pic.png",
+            "id": 8
+        },
+        {
+            "name": "Наименование товара, которое не более 2 строк",
+            "pricePromo": 10000,
+            "priceOld": 20000,
+            "valute": "$",
+            "picUrl": "./product-pic.png",
+            "id": 9
+        }
+   ]
+}

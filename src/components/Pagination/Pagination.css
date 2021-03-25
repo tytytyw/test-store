@@ -1,0 +1,26 @@
+.pg__count {
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: .7;
+    line-height: 100%;
+}
+
+.pg__next {
+    display: inline-block;
+    transform: rotate(-45deg);
+    padding: 4px;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.pg {
+    display: flex;
+    align-items: center;
+
+}
+
+.pg__count.current {
+    opacity: 1;
+}
