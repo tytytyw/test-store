@@ -1,0 +1,107 @@
+ul {
+    list-style: none;
+    font-size: 0.875em;
+    padding-left: 0;
+}
+
+.filter-settings {
+    width: 300px;
+    padding-right: 30px;
+}
+
+.filter-settings__category-item > span {
+    color: #ABABAB;
+}
+
+.filter-settings__category {
+    margin-bottom: 3em;
+}
+
+.filter-settings__category-item {
+    margin: 1em 0;
+    color: #5375B7;
+    transition: color .3s ease;
+
+}
+
+.filter-settings__category-item:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.settings-title {
+    font-weight: 700;
+    font-size: 0.875em;
+}
+
+.MuiSlider-track {
+    background: #000 !important;
+}
+
+.MuiSlider-root {
+    color: #000 !important;
+}
+
+.price-slider__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-slider__input {
+    width: 30%;
+    padding: .75em;
+    font-size: .8em;
+
+}
+
+.price-slider__text {
+    font-size: 0.75em;
+    opacity: .5;
+}
+
+.filter-settings__brands-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands__reset-btn {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    text-decoration: underline;
+    font-size: 0.625em;
+    opacity: .5;
+    color: #333;
+    cursor: pointer;
+    transition: opacity .3s ease;
+}
+
+.brands__reset-btn:hover {
+    opacity: 1;
+}
+
+.brands__check, .brands__name {
+    margin-right: 8px;
+}
+
+.brands__count {
+    opacity: .7;
+}
+
+.brands__item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.brands__item:hover {
+    text-decoration: underline;
+}
+
+.brands__check {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
