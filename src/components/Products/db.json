@@ -70,14 +70,6 @@
             "valute": "$",
             "picUrl": "./product-pic.png",
             "id": 8
-        },
-        {
-            "name": "Наименование товара, которое не более 2 строк",
-            "pricePromo": 10000,
-            "priceOld": 20000,
-            "valute": "$",
-            "picUrl": "./product-pic.png",
-            "id": 9
         }
    ]
 }
