@@ -4,6 +4,7 @@
     transition: filter .3s ease;
     cursor: pointer;
     width: 19%;
+    margin-right: 20px;
 }
 
 .category-preview__item:not(:last-child):hover {
@@ -45,4 +46,34 @@
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+
+@media (max-width: 1300px) {
+    .category-preview__item {
+        /* overflow: hidden; */
+        min-width: 215px;
+   }
+
+    .category-preview__item:last-child {
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    .category-preview {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .category-preview__item {
+        margin-bottom: 5%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 600px) {
+    .category-preview__item {
+        margin-right: 0;
+    }
 }

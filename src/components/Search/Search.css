@@ -59,3 +59,20 @@ button {
     border-radius: 3px;
     padding: 12px 57px;
 }
+
+
+@media (max-width: 668px) {
+    .search__button, .search__button-close {
+        padding: 8px 30px;
+    }
+}
+
+@media (max-width: 440px) {
+    .search__button, .search__button-close {
+        padding: 4px 10px;
+    }
+
+    .search__area {
+        width: 40%;
+    }
+}
