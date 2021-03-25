@@ -2,12 +2,12 @@
     width: 260px;
     margin-right: 44px;
     transition: filter .3s ease;
+    cursor: pointer;
 }
 
 .products {
     display: flex;
     flex-wrap: wrap;
-    cursor: pointer;
 }
 
 .product:hover {
