@@ -2,12 +2,12 @@
     width: 260px;
     margin-right: 44px;
     transition: filter .3s ease;
+    cursor: pointer;
 }
 
 .products {
     display: flex;
     flex-wrap: wrap;
-    cursor: pointer;
 }
 
 .product:hover {
@@ -27,7 +27,7 @@
 }
 
 .product__price-wrap {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-weight: bold;
     font-size: 1em;
     margin-bottom: 1em;

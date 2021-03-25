@@ -1,5 +1,6 @@
 .App {
   font-family: Arial, sans-serif;
+  min-width: 320px;
 }
 
 button {
@@ -78,4 +79,22 @@ select {
 .sort-settings__count {
   padding: 5px;
   border-color: rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 510px) {
+  .wrap {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    justify-content: center;
+  }
 }
